@@ -9,7 +9,7 @@ https://www.callicoder.com/spring-boot-docker-example/
 
 $ mvn clean package
 
-#build the docker image by typing the following command
+# build the docker image by typing the following command
  
 $ docker build -t spring-boot-GoogleCloudAPIs-demo .
 
@@ -17,7 +17,7 @@ $ docker build -t spring-boot-GoogleCloudAPIs-demo .
 
 $ docker image ls
 
-#run it using docker run command in foreground -
+# run it using docker run command in foreground -
 
 $ docker run -p 5000:8021 spring-boot-GoogleCloudAPIs-demo 
 
@@ -26,7 +26,7 @@ $ docker run -p 5000:8021 spring-boot-GoogleCloudAPIs-demo
 	http://localhost:5000.
 
 
-#run it using docker run -d option in detached mode 
+# run it using docker run -d option in detached mode 
 
 $ docker run -d -p 5000:8021 spring-boot-GoogleCloudAPIs-demo
 
