@@ -20,8 +20,10 @@ $ docker image ls
 #run it using docker run command in foreground -
 
 $ docker run -p 5000:8021 spring-boot-GoogleCloudAPIs-demo 
+
 	In the run command, we have specified that the port 8021 on the container should be mapped to the port 5000 on the Host OS.
-	Once the application is started, you should be able to access it at http://localhost:5000.
+	Once the application is started, you should be able to access it at 
+	http://localhost:5000.
 
 
 #run it using docker run -d option in detached mode 
