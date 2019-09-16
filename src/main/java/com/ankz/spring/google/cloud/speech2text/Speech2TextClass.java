@@ -33,7 +33,8 @@ public class Speech2TextClass {
 
 	      // Builds the sync recognize request
 	      RecognitionConfig config = RecognitionConfig.newBuilder()
-	          .setEncoding(AudioEncoding.LINEAR16)
+//	          .setEncoding(AudioEncoding.LINEAR16)
+	    		  .setEncoding(AudioEncoding.LINEAR16)
 	          .setEnableAutomaticPunctuation(true)
 	          .setLanguageCode("en-US")
 	          .build();
