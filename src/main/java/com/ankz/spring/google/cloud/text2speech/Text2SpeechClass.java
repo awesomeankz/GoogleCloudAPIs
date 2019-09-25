@@ -18,6 +18,9 @@ import com.google.cloud.texttospeech.v1.TextToSpeechClient;
 import com.google.cloud.texttospeech.v1.TextToSpeechSettings;
 import com.google.cloud.texttospeech.v1.VoiceSelectionParams;*/
 import com.google.protobuf.ByteString;
+import com.google.protobuf.Descriptors;
+import com.google.protobuf.Descriptors.FieldDescriptor;
+
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 
@@ -40,10 +43,17 @@ public class Text2SpeechClass {
 			// Build the voice request, select the language code ("en-US") and the ssml
 			// voice gender
 			// ("neutral")
-			VoiceSelectionParams voice = VoiceSelectionParams.newBuilder().setLanguageCode("en-US")
-					.setSsmlGender(SsmlVoiceGender.NEUTRAL)
-					.build();
-
+			
+			
+			  VoiceSelectionParams voice =
+			  VoiceSelectionParams.newBuilder().setLanguageCode("en-US")
+			  .setSsmlGender(SsmlVoiceGender.NEUTRAL) .build();
+			 
+			
+			
+			
+			
+			
 			// Select the type of audio file you want returned
 			AudioConfig audioConfig = AudioConfig.newBuilder().setAudioEncoding(AudioEncoding.LINEAR16).build();
 
@@ -79,9 +89,10 @@ public class Text2SpeechClass {
 			// Build the voice request, select the language code ("en-US") and the ssml
 			// voice gender
 			// ("neutral")
-			VoiceSelectionParams voice = VoiceSelectionParams.newBuilder().setLanguageCode("en-US")
-					.setSsmlGender(SsmlVoiceGender.FEMALE)
-					.build();
+			
+//			VoiceSelectionParams voice = VoiceSelectionParams.newBuilder().setLanguageCode("en-US").setSsmlGender(SsmlVoiceGender.FEMALE).build();
+			VoiceSelectionParams voice = VoiceSelectionParams.newBuilder().setLanguageCode("en-IN").setSsmlGender(SsmlVoiceGender.MALE) .build();
+			
 
 			// Select the type of audio file you want returned
 			AudioConfig audioConfig = AudioConfig.newBuilder().setAudioEncoding(AudioEncoding.LINEAR16).build();
