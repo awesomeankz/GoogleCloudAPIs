@@ -1,0 +1,13 @@
+2019-09-12 11:45:21.824  INFO 37692 --- [restartedMain] c.a.s.g.c.SpringTextSpeechApplication    : Starting SpringTextSpeechApplication on impetus-b0122 with PID 37692 (C:\Users\ankit.kamal\git\GoogleCloudAPIs\target\classes started by ankit.kamal in C:\Users\ankit.kamal\git\GoogleCloudAPIs)
+2019-09-12 11:45:21.825  INFO 37692 --- [restartedMain] c.a.s.g.c.SpringTextSpeechApplication    : No active profile set, falling back to default profiles: default
+2019-09-12 11:45:22.240  INFO 37692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-12 11:45:22.241  INFO 37692 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-12 11:45:22.241  INFO 37692 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-12 11:45:22.280  INFO 37692 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-12 11:45:22.280  INFO 37692 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 451 ms
+2019-09-12 11:45:22.321  INFO 37692 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-12 11:45:22.365  INFO 37692 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-12 11:45:22.383  INFO 37692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-12 11:45:22.383  INFO 37692 --- [restartedMain] c.a.s.g.c.SpringTextSpeechApplication    : Started SpringTextSpeechApplication in 0.623 seconds (JVM running for 541.752)
+2019-09-12 11:45:25.812  INFO 37692 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-12 11:45:41.214  INFO 37692 --- [Thread-75] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
